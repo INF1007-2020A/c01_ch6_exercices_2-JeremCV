@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 
-from matplotlib.colors import cnames
+
 
 
 def list_to_dict(some_list: list) -> dict:
     # TODO: Transformer la liste en dictionnaire, les éléments de la liste deviennent les clés et leur index deviennent les valeurs
-    return {}
+    return {y: x for x, y in enumerate(some_list)}
 
 
 def color_name_to_hex(colors: list) -> list:
@@ -16,6 +16,7 @@ def color_name_to_hex(colors: list) -> list:
 
 
 def odd_integer_for_loop(end: int) -> list:
+    
     return []
 
 
